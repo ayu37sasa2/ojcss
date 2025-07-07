@@ -1,0 +1,94 @@
+* {
+    /* この三つは、すべてにおいて最初に入れるといい */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: skyblue;
+
+    /* オリジナル */
+    text-align: center;
+}
+
+/* オリジナル */
+li{
+    font-size: 20px;
+}
+
+main {
+    background-color: bisque;
+}
+
+section {
+    background-color: azure;
+    width: 80%;
+
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+article {
+    display: block;
+    padding: 40px;
+}
+
+/* オリジナル */
+article h1 {
+    font-size: 40px;
+}
+
+article img {
+    width: 50%;
+    height: auto;
+}
+
+
+/* したのTOPも一緒だからclassでくっくていい */
+/* article div p a { */
+.link{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+
+    display: block;
+    background-color: blue;
+    width: 30%;
+    padding: 20px 0;
+    margin: 10px auto;
+}
+
+.image{
+    display: block;
+    width: 70%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+}
+
+/* オリジナル */
+footer h1{
+    font-size: 20px;
+
+/* 文字の太さ変更 */
+   font-weight: normal;
+}
+
+.last{
+    background-color: bisque;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 8px;
+    padding: 8px 0;
+
+    /* オリジナル */
+    font-weight: bolder;
+}
+
+
